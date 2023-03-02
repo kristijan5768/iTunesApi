@@ -1,0 +1,51 @@
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    padding: 10px;
+    background-color:crimson;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 50px;
+    font-family:'Times New Roman', Times, serif;
+    font-size: 50px;
+}
+div {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+h3 {
+    font-size: 32px;
+}
+
+p {
+    font-size: 20px;
+}
+
+#search-bar {
+    width: 300px;
+    height: 40px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 16px;
+    outline: none;
+}
+
+button {
+    background-color: #0077ff;
+    border: none;
+    color: #fff;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
